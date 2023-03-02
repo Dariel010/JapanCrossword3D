@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
@@ -42,7 +43,10 @@ public class LocalLevelLoadAndSelector : MonoBehaviour
         levelList = SaveLoadData.loadJsonFromResources<LevelList>("LevelList");
         //TextAsset[] levels;
         //levels = (TextAsset[])Resources.LoadAll("Levels/");
-
+        if (levelList == null)
+        {
+            throw new Exception("LevelList file dont exist at Resources folder or cant load.");
+        }
         //List<Object> txtA = new List<Object>();
         //txtA = Resources.LoadAll("") as List<Object>;
         //filesArrey = Directory.GetFiles(SettingsScript.levelResPath, "*.jcd");

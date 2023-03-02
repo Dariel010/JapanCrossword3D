@@ -25,15 +25,25 @@ public class NetworkEditor : MonoBehaviour
     private string currentFilenameTab;
     delegate void AfterProcess();
     public static AllDownloader.Status ProcessStatus;
-    //OLD http://37.140.197.216  \\ NEW  95.163.237.183
+    
 
     public void Initialize()
     {
         Debug.Log("Initialize NetworkEditor===");
-        LoadNetworkFileList();
+        if (CheckIfInternetOnline())
+        {
+            LoadNetworkFileList();
+            graphicRaycaster.enabled = false;
+            GenerateNetworkFiles();
+        }
         graphicRaycaster.enabled = false;
-        GenerateNetworkFiles();
         GenerateLeftLocalFiles();
+    }
+
+    private bool CheckIfInternetOnline()
+    {
+        //TODO Check if Internet is on
+        return true;
     }
 
     public void GenerateNetworkFiles()
@@ -439,6 +449,6 @@ public class NetworkEditor : MonoBehaviour
     private void LoadNetworkFileList()
     {
         Manager.instance.networkLevelData.Clear();
-        ReadAllNodeDatabase("CrosswordDatabase");
+        ReadAllNodeDatabase(NetworkEditor.MainNodeDatabaseName);
     }
 }
