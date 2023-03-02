@@ -1,0 +1,167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dee2a0bb55403304aa8a2ebcdca0bd81, type: 3}
+  m_Name: localize_english
+  m_EditorClassIdentifier: 
+  terms:
+  - key: Play-K
+    value: Play
+  - key: How-K
+    value: How to play
+  - key: Editor-K
+    value: Editor
+  - key: Settings-K
+    value: Settings
+  - key: Network-K
+    value: Network
+  - key: ExitMainMenu-K
+    value: Exit
+  - key: NewCrossword-K
+    value: New Crossword
+  - key: ExitEditorAndOther-K
+    value: Exit
+  - key: ActiveClose-K
+    value: Save and close
+  - key: ActiveSave-K
+    value: Save as...
+  - key: ActiveClean-K
+    value: Clean
+  - key: ActiveCheck-K
+    value: Win Check
+  - key: ActiveSettings-K
+    value: Settings
+  - key: Sound-K
+    value: Sound
+  - key: Borders-K
+    value: Borders
+  - key: BlackCells-K
+    value: Checked cells
+  - key: Numbers-K
+    value: Numbers
+  - key: Marker-K
+    value: Marker
+  - key: Mistakes-K
+    value: Drop mistakes seconds
+  - key: CrossName-K
+    value: 'Title:'
+  - key: CrossAuthor-K
+    value: 'Author:'
+  - key: CrossCreated-K
+    value: 'Created:'
+  - key: CrossChanged-K
+    value: 'Changed:'
+  - key: SaveNewCrossAuthor-K
+    value: Author name...
+  - key: SaveNewCrossName-K
+    value: Crossword title...
+  - key: NetworkDelete-K
+    value: Delete
+  - key: NetworkDownload-K
+    value: Download
+  - key: NetworkUpload-K
+    value: Upload
+  - key: NewInputCellHor-K
+    value: Horizontaly
+  - key: NewInputCellVert-K
+    value: Vertically
+  - key: HowToTEXT-K
+    value: <align="center"><size=120%> How To Solve Japanese Crossword puzzle?</size></align>
+      <br><br> Each of the numbers on the left side indicates how many cells are
+      shaded in groups in the corresponding row. Between the groups there must be
+      at least one cell that is not shaded. In the same way, the numbers at the top
+      show the vertical groups. To solve a puzzle, it's usually most helpful to start
+      with the biggest groups. Take a look at the numbers above and to the left and
+      find the largest of them. <br><br><br><br><br> <margin-left=46%><align="center"><sprite
+      index=7><align="center"></margin><br><br><br><br><br> <br> <align="left">The
+      last line of the left column with the numbers is the number 5 (red). It indicates
+      that this line has 5 consecutive shaded cells. Since the entire grid has a
+      width of 5 cells in all, it follows that they should all be painted over. In
+      the first line, we see the number 3. This might be across columns 1-2-3, 2-3-4,
+      or 3-4-5. But wherever this block of three cells is located, the central cell
+      in column 3 will be colored for certain. If there was a group of 4, we could
+      safely paint the 2nd, 3rd and 4th cells of its row. <br><br><br><br><br> <margin-left=46%><align="center"><sprite
+      index=8><align="center"></margin> <br><br><br><br><br><br> <align="left">Now
+      we look at the numbers above. The first column is 1. It indicates that only
+      one cell of this column is painted. Since we already have such a cell, we can
+      tell that the rest will certainly not be painted, so we can safely put dot
+      markers in those cells. Above columns 2, 3, 4, and 5 there are two numbers,
+      therefore in each of these columns there will be two groups of filled cells.
+      The bottom numbers in three of those columns are 1, and we already have one
+      shaded cell at the bottom of each column, so we can put dot markers on top
+      of the shaded cells to let us know there will not be another painted cell there.
+      <br><br><br><br><br> <margin-left=46%><align="center"><sprite index=9><align="center"></margin>
+      <br><br><br><br><br><br> <align="left">In the second column the bottom number
+      is 3, hence the lower group consists of three cells. We already have one cell
+      painted, and it's against the bottom edge, so we can add two cells above and
+      put a dot marker on top. In the third column, where we already have one cell
+      painted at the top, the upper number is 3. In this column, we can paint 2 more
+      cells below the one already painted, so that the top 3 are covered. <br><br><br><br><br>
+      <margin-left=46%><align="center"><sprite index=10><align="center"></margin>
+      <br><br><br><br><br><br><align="left">In the third row, we formed a group of
+      two cells. The first figure, 2, shows that we have fully painted this block,
+      so we put a marker to the right of this group. In this same row, there is still
+      a number 1 left to fill, and only one cell empty and unmarked, so we can paint
+      it over. In the first row, which has only a number 3, we've already identified
+      the first cell is empty. With only 4 cells left available, we can paint another
+      cell in the middle. This is confirmed by the top number 1 in the fourth vertical
+      column. <br><br><br><br><br> <margin-left=46%><align="center"><sprite index=11><align="center"></margin>
+      <br><br><br><br><br><br><align="left">There are very few cells left open now.
+      Number 2 in the fifth vertical column shows that we need to add another shaded
+      cell in this column. This block is now complete, so we put a marker on top.
+      We've still got one open cell in the first row. Since we need 3 in this first
+      horizontal row, it is necessary to paint it. <br><br><br><br><br> <margin-left=46%><align="center"><sprite
+      index=12><align="center"></margin> <br><br><br><br><br><br><align="left">---Congratulations!
+      The puzzle is completely solved!---<br><br><br>
+  - key: HelpBlackCell-K
+    value: Cell to paint
+  - key: HelpCrossCell-K
+    value: To mark solved numbers
+  - key: HelpDotCell-K
+    value: To mark empty cells
+  - key: HelpCleanCell-K
+    value: Cell to clean
+  - key: HelpRotate-K
+    value: Rotate or move view
+  - key: HelpSaveClose-K
+    value: Save and close crossword
+  - key: HelpSaveAs-K
+    value: Save crossword as new
+  - key: HelpClean-K
+    value: Clean all cells
+  - key: HelpWinCheck-K
+    value: Check if puzzle painted righit
+  - key: HelpCenterCell-K
+    value: Freeze center at crossword and fix move view
+  - key: HelpThisHelp-K
+    value: Call this help
+  - key: Continue-K
+    value: Continue
+  - key: Language-K
+    value: Language
+  - key: Create-K
+    value: Create
+  - key: Loading-K
+    value: LOADING ... LOADING ... LOADING ............
+  - key: Error1-K
+    value: Crossword Title and Author name must be longer then 3 symbol!!!
+  - key: Error2-K
+    value: 'Crossword doesn''t loaded at path:'
+  - key: WinText-K
+    value: Yeeey! Crossword painted correctly.
+  - key: Error4-K
+    value: :( The picture isn't correct. Look closer and try again.
+  - key: ZoomSens-K
+    value: Zoom
+  - key: RotateSens-K
+    value: Rotate
+  - key: CrossSize-K
+    value: 'Size:'

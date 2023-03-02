@@ -1,0 +1,148 @@
+ - key: Play-K
+    value: Spielen
+
+  - key: How-K
+    value: Wie man spielt
+
+  - key: Editor-K
+    value: Editor
+
+  - key: Settings-K
+    value: Einstellung
+
+  - key: Network-K
+    value: Netzwerk
+
+  - key: ExitMainMenu-K
+    value: Ausfahrt
+
+  - key: NewCrossword-K
+    value: "Neues Kreuzwortr\xE4tsel"
+
+  - key: ExitEditorAndOther-K
+    value: Ausfahrt
+  - key: ActiveClose-K
+    value: "Speichern und schlie\xDFen"
+
+  - key: ActiveSave-K
+    value: Speichern unter...
+
+  - key: ActiveClean-K
+    value: Sauber
+
+  - key: ActiveCheck-K
+    value: Gewinncheck
+
+  - key: ActiveSettings-K
+    value: Einstellung
+
+  - key: Sound-K
+    value: Sound
+
+  - key: Borders-K
+    value: "Au\xDFengrenzen"
+
+  - key: BlackCells-K
+    value: Markierte Zellen
+
+  - key: Numbers-K
+    value: Zahl
+
+  - key: Marker-K
+    value: Marker
+
+  - key: Mistakes-K
+    value: Drop in Sekunden
+
+  - key: CrossName-K
+    value: 'Titelleiste:'
+
+  - key: CrossAuthor-K
+    value: 'Autor:'
+
+  - key: CrossCreated-K
+    value: 'Angelegten:'
+
+  - key: CrossChanged-K
+    value: 'Nderten:'
+
+  - key: SaveNewCrossAuthor-K
+    value: Name des Autors...
+
+  - key: SaveNewCrossName-K
+    value: "Kreuzwortr\xE4tsel Titel..."
+
+  - key: NetworkDelete-K
+    value: "L\xF6schen"
+
+  - key: NetworkDownload-K
+    value: Herunterladen
+
+  - key: NetworkUpload-K
+    value: Laden
+
+  - key: NewInputCellHor-K
+    value: Horizontal
+
+  - key: NewInputCellVert-K
+    value: Vertikal
+
+
+  - key: HelpBlackCell-K
+    value: Zelle zu malen
+
+  - key: HelpCrossCell-K
+    value: "Gel\xF6ste Zahlen markieren"
+
+  - key: HelpDotCell-K
+    value: So markieren Sie leere Zellen
+
+  - key: HelpCleanCell-K
+    value: Leicht zu reinigen
+
+  - key: HelpRotate-K
+    value: Ansicht drehen oder verschieben
+
+  - key: HelpSaveClose-K
+    value: "Kreuzwortr\xE4tsel speichern und schlie\xDFen"
+
+  - key: HelpSaveAs-K
+    value: "Kreuzwortr\xE4tsel als neu speichern"
+
+  - key: HelpClean-K
+    value: Reinigen Sie alle Zellen
+
+  - key: HelpWinCheck-K
+    value: "\xDCberpr\xFCfen Sie, ob Puzzle gemalt righit"
+
+  - key: HelpCenterCell-K
+    value: "Freeze Center bei Kreuzwortr\xE4tsel und fix verschieben Ansicht"
+
+  - key: HelpThisHelp-K
+    value: Rufen Sie diese Hilfe an
+
+  - key: Continue-K
+    value: Weiterhin
+
+  - key: Language-K
+    value: Sprachlich
+
+  - key: Create-K
+    value: Erstellen
+
+  - key: Loading-K
+    value: LADEN ... LADEN ... LADEN ............
+
+  - key: Error1-K
+    value: "Kreuzwortr\xE4tsel Titel und Name des Autors muss l\xE4nger sein als
+      3 Symbol!!!"
+
+  - key: Error2-K
+    value: "Kreuzwortr\xE4tsel wird am Pfad nicht geladen:"
+
+  - key: Error3-K
+    value: "Yeeey! Kreuzwortr\xE4tsel richtig gemalt."
+
+  - key: Error4-K
+    value: :( Das Bild ist nicht korrekt. Schauen Sie genauer hin und versuchen Sie
+      es erneut.

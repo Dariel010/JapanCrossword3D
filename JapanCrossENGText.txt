@@ -1,0 +1,98 @@
+
+    value: Play
+
+    value: How to play
+
+    value: Editor
+
+    value: Settings
+
+    value: Network
+
+    value: Exit
+
+    value: New Crossword
+
+    value: Exit
+
+    value: Save and close
+
+    value: Save as...
+
+    value: Clean
+
+    value: Win Check
+
+    value: Settings
+  
+    value: Sound
+
+    value: Borders
+  
+    value: Checked cells
+
+    value: Numbers
+
+    value: Marker
+
+    value: Drop mistakes seconds
+
+    value: 'Title:'
+
+    value: 'Author:'
+
+    value: 'Created:'
+
+    value: 'Changed:'
+
+    value: Author name...
+
+    value: Crossword title...
+
+    value: Delete
+
+    value: Download
+
+    value: Upload
+
+    value: Horizontaly
+
+    value: Vertically
+
+    value: Cell to paint
+
+    value: To mark solved numbers
+
+    value: To mark empty cells
+
+    value: Cell to clean
+
+    value: Rotate or move view
+
+    value: Save and close crossword
+
+    value: Save crossword as new
+
+    value: Clean all cells
+ 
+    value: Check if puzzle painted righit
+
+    value: Freeze center at crossword and fix move view
+
+    value: Call this help
+
+    value: Continue
+
+Language
+
+Create
+
+Loading...
+
+Crossword Title and Author name must be longer then 3 symbol!!!
+
+Crossword doesn't loaded at path:
+
+Yeeey! Crossword painted correctly.
+
+:( The picture isn't correct. Look closer and try again.

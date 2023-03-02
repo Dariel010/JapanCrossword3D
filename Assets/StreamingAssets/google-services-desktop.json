@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "38902501789",
+    "firebase_url": "https://japancrossword-173f0-default-rtdb.firebaseio.com",
+    "project_id": "japancrossword-173f0",
+    "storage_bucket": "japancrossword-173f0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:38902501789:android:51a3257e6f1a85a4d59f74",
+        "android_client_info": {
+          "package_name": "com.RisusGames.JapanCrossword"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "38902501789-o0etufln94t0ieups4p3p5lie8qkqv90.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAmLNUS4x2jQ80TPLAzR1HDar6GVoO0cs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "38902501789-o0etufln94t0ieups4p3p5lie8qkqv90.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "38902501789-hv9s351nadm3spugat594qo39m2o9s9o.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.RisusGames.JapanCrossword"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
