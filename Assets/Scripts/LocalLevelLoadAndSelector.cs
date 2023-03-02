@@ -7,9 +7,6 @@ using UnityEngine.UI;
 
 public class LocalLevelLoadAndSelector : MonoBehaviour
 {
-    //public Button levelButton;
-    //public Button[] levelArray;
-    //public int totalPage, levelPerPage, currentPage;
     [SerializeField] private SettingsScript settingsScript;
     private List<string> filesList;
     private string[] filesArrey;
