@@ -1,5 +1,7 @@
 # Japan Crossword 3D - Nonogram
-Japan Crossword (Unity3d)
+![](https://www.risusgames.ru/globalpics/japanCrossword3dLogo.jpg)
+
+Japan Crossword (Unity3d).
 Picture logic puzzles in which cells in a grid must be colored or left blank according to numbers at the side of the grid to reveal a hidden picture. Also known as Nonograms, Griddlers, Hanjie, Picross, Japanese Puzzles, Pic-a-Pix, and other. 
 Features:
 - Currently have over 100+ images (about 80x80 maximum size).
